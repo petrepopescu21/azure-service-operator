@@ -3947,6 +3947,14 @@ objectModelConfiguration:
       Namespaces_Topics_Subscriptions_Rule:
         $exportAs: NamespacesTopicsSubscriptionsRule
         $supportedFrom: v2.12.0
+      Namespaces_Topics_AuthorizationRule:
+        $exportAs: NamespacesTopicsAuthorizationRule
+        $supportedFrom: v2.13.0
+        $azureGeneratedSecrets:
+          - PrimaryKey
+          - PrimaryConnectionString
+          - SecondaryKey
+          - SecondaryConnectionString
   signalrservice:
     2021-10-01:
       SignalR:
